@@ -6,7 +6,7 @@ Presenter, re-delivery, and train-the-trainer materials for ILL224: See How Far 
 
 | Item | Link | Notes |
 | --- | --- | --- |
-| Delivery deck | Avail 10.12.26  | PowerPoint presentation |
+| Delivery deck | [English slides](https://aka.ms/ft27/ill224/slides/en) \| [Spanish slides](https://aka.ms/ft27/ill224/slides/es) | Session slides |
 | Session recording | [ILL224 Recording](https://aka.ms/ft27/ill224/youtube) | Detailed delivery of ILL224 |
 | Attendee landing page | [Session README](../README.md) | Public starting point |
 | Lab instructions | [Attendee instructions](../instructions/README.md) | Guided and self-paced paths |

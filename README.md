@@ -52,6 +52,7 @@ By the end of this session, you will be able to:
 | [Microsoft Copilot Studio documentation](https://learn.microsoft.com/microsoft-copilot-studio/) | Product concepts, authoring guidance, and administration documentation |
 | [Microsoft Learn](https://learn.microsoft.com) | Official documentation and guided learning paths |
 | [Session recording](https://aka.ms/ft27/ill224/youtube) | Watch the ILL224 session recording |
+| [English slides](https://aka.ms/ft27/ill224/slides/en) \| [Spanish slides](https://aka.ms/ft27/ill224/slides/es) | Session slides for ILL224 |
 | [Frontier Tour 2027 Resource Center](https://aka.ms/FrontierTour27) | Additional Frontier Tour session repositories and materials |
 
 ### Content owner

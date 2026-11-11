@@ -15,7 +15,10 @@ Required images:
 9. Full activity sequence with both skills and Python execution
 10. Generated PDF download
 11. MCP confirmation and Invoice Review Log item
-12. Evaluation CSV import, run, and result details
+12. Evaluation CSV import, run, and result details:
+    - `05.12-import-options.png`: creation page defaults; highlight **Import** and **Conversations** as the selections to make before uploading
+    - `05.13-eval-configuration.png`: name field and **Save** / **Run** at the top, **Select test methods** below **Review data set**, and tool connections under **Additional configuration**
+    - `05.14-conversation-data-type-error.png`: troubleshooting example showing the conversation CSV error with **Single responses** selected, not a successful import
 13. Memory setting and preference test
 14. Publish confirmation
 15. Learner-built three-node Workflow
@@ -23,3 +26,5 @@ Required images:
 17. Northwind request form, run history, and updated request result
 
 Use descriptive filenames and alt text. Update the numbered instruction modules only after screenshots have been verified against the event tenant.
+
+The three evaluation images above are cropped and annotated from learner-provided screenshots of the reported UI. Browser chrome, the account sidebar, and the adjacent outdated instructions are excluded. They replace the older import and right-hand **Configure test set** panel images in the evaluation instructions.

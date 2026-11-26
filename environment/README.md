@@ -31,6 +31,40 @@ Skillable may assign a prepared seat at launch. Do not create accounts, sites, o
 - Power Automate or Copilot Studio Workflows entitlement required by the final workflow action
 - Sufficient Copilot Credit and service capacity for the full event load
 
+### Optional Copilot Studio Apps bonus
+
+The [Supplier Assurance Dashboard bonus](../lab/instructions/06-Bonus-Build-The-Supplier-Dashboard.md) adds 15-20 minutes after the required Microsoft 365 Copilot publishing lab. Apps access is not required for the core lab. Before offering the bonus, validate the following with a learner account:
+
+- The new experience is enabled and the **App** tile or **Apps** navigation is available.
+- App creation and publishing are permitted, with sufficient Copilot Credits for building, previewing, testing, and using the app.
+- The app's environment permits the required SharePoint connector. Apps can start in a personal environment; do not assume the agent's environment or MCP connection is inherited.
+- The app can read the existing Suppliers, Supplier Invoices, Quality Events, Invoice Review Requests, and Invoice Review Log lists without creating storage or modifying records.
+- The earlier Astor Ridge review log and Northwind workflow response are visible through the app connection.
+- Publishing succeeds and the learner can open the published app. Optional sharing uses only an approved reviewer or group with separate access to the source lists.
+
+Use the same provisioned site and data as the preceding exercises. The dashboard displays structured review amounts only when a review log exists; a completed workflow request is not a financial approval. Capture Apps screenshots and rehearse the documented steps in the event tenant before release. The extension is currently documentation-grounded, not tenant-validated.
+
+### Microsoft 365 Copilot final lab
+
+The [final required publishing lab](../lab/instructions/05-Publish-To-Microsoft-365-Copilot.md) adds approximately 10-15 minutes directly after the workflow test, before either optional bonus. Validate the full flow with a learner account before delivery:
+
+- The assigned account can use Microsoft 365 Copilot and has the licenses and capacity required by the agent.
+- The agent uses **Authenticate with Microsoft**.
+- **Teams + Microsoft 365** is permitted, with **Make agent available in Microsoft Copilot** enabled. Copilot-only publishing is not supported.
+- Tenant policies allow self-installation of the agent and any Teams-backed installation route used by the experience. No learner catalog submission or organization-wide sharing is required.
+- The learner can open the agent in Microsoft 365 Copilot using the same assigned identity and establish the required tool connections.
+- The published session reads the governed SharePoint sources and returns the expected Astor Ridge and policy-boundary results without business-data writes.
+
+Rehearse publication, installation, propagation, and source access in the event tenant. Capture the actual new-experience installation steps and screenshots; the general Teams installation documentation also covers the standard harness and is not proof that every entry point is identical. Do not require administrators to approve a catalog submission during the timed lab.
+
+### Optional Copilot Cowork bonus
+
+The [Cowork agent-creation bonus](../lab/instructions/07-Bonus-Create-An-Agent-With-Cowork.md) adds approximately 15-20 minutes and requires the **Copilot Studio skill** for artifact creation in the **Frontier** preview, not merely general Cowork access.
+
+Before offering it, verify that the learner can use Cowork with billing enabled, resolve the assigned DevOne environment, create a separate draft agent there, configure read-only Caldova retrieval, update the saved instructions, and invoke or preview the resulting agent. Rehearse the creation approvals and capture screenshots.
+
+The bonus creates only a **Caldova Supplier Meeting Prep Agent** draft. It must not modify the main Supplier Assurance Agent, publish or share the new agent, bind it to the existing workflow, or introduce business-data writes. If the preview capability is unavailable, omit the bonus rather than substituting browser automation or a one-time Cowork output.
+
 ## SharePoint site
 
 Use the idempotent [SharePoint provisioning package](./sharepoint-provisioning/README.md) to create and seed this configuration in each assigned Microsoft 365 tenant.

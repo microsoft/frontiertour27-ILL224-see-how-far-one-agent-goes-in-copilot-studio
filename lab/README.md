@@ -24,17 +24,28 @@ Text surrounded by `+++` becomes clickable autotype text in Skillable. Variables
 - An uploaded Invoice Review Decision skill with packaged Python
 - A reusable Agent Ops evaluation
 - A simple three-node workflow built from scratch with your published agent
+- A published Supplier Assurance Agent tested in Microsoft 365 Copilot
+- Optionally, a read-only Supplier Assurance Dashboard created with Copilot Studio Apps
 
 ## Lab sections
 
 1. [Introduction and sign in](./instructions/00-Introduction.md)
 2. [Build the Supplier Assurance Agent](./instructions/01-Build-The-Agent.md)
-3. [Add SharePoint knowledge](./instructions/02-Add-SharePoint-Knowledge.md)
-4. [Connect the SharePoint MCP](./instructions/03-Connect-SharePoint-MCP.md)
-5. [Add skills and review an invoice](./instructions/04-Add-Skills-And-Review-Invoice.md)
-6. [Evaluate and publish the agent](./instructions/05-Evaluate-And-Publish.md)
-7. [Build the workflow](./instructions/06-Complete-The-Workflow.md)
-8. [Run the solution end to end](./instructions/07-Test-End-To-End.md)
+3. [Add skills and review an invoice](./instructions/02-Add-Skills-And-Review-Invoice.md)
+4. [Personalize, evaluate, and publish the agent](./instructions/03-Evaluate-And-Publish.md)
+5. [Build and test the workflow](./instructions/04-Create-The-Workflow.md)
+6. [Publish and test in Microsoft 365 Copilot](./instructions/05-Publish-To-Microsoft-365-Copilot.md) (10-15 additional minutes)
+
+The final required lab follows the workflow test and makes the agent available in Microsoft 365 Copilot, verifying its published behavior using read-only case prompts. Channel installation must be enabled before the session; organization-wide catalog submission is not required.
+
+### Optional bonuses
+
+1. [Build the Supplier Assurance Dashboard](./instructions/06-Bonus-Build-The-Supplier-Dashboard.md) (15-20 additional minutes).
+2. [Create a Supplier Meeting Prep Agent with Copilot Cowork](./instructions/07-Bonus-Create-An-Agent-With-Cowork.md) (15-20 additional minutes).
+
+The Apps bonus displays the recorded Astor Ridge review and the completed Northwind workflow response. It follows publishing and is not required to complete the workshop. Allow additional time beyond the base workshop for either bonus.
+
+Use Cowork's Copilot Studio skill to create and refine a separate, read-only agent that prepares evidence-based supplier meeting agendas. The bonus requires the Frontier artifact-creation capability and leaves the new agent as a draft; it does not change the main Supplier Assurance Agent.
 
 ## Lab files
 

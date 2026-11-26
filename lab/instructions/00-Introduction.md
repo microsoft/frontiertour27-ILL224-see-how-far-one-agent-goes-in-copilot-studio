@@ -47,7 +47,4 @@ Select the **Resources** tab to find your Virtual Machine credentials and Micros
 
    > **Note:** To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
 
-> [!NOTE]
-> If credentials are missing, select **Refresh Credentials** in the **Resources** tab. Wait for autotype to finish before interacting with the VM.
-
 Ready to get started? Click **Next**.

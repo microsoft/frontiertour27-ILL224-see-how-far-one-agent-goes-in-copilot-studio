@@ -43,11 +43,8 @@ Select the **Resources** tab to find your Virtual Machine credentials and Micros
 
 ## Getting started
 
-1. Log in to the Virtual Machine using the password +++@lab.VirtualMachine(ILL224).Password+++
+1. Log in to the Virtual Machine using the password +++@lab.VirtualMachine(BRK532).Password+++
 
    > **Note:** To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
-
-> [!NOTE]
-> If credentials are missing, select **Refresh Credentials** in the **Resources** tab. Wait for autotype to finish before interacting with the VM.
 
 Ready to get started? Click **Next**.

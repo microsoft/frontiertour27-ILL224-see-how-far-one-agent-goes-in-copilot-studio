@@ -43,8 +43,8 @@ The first step in creating your agent is to establish its purpose and boundaries
 
     ![Remove ability to search all websites](./assets/01.5-remove-all-websites.png)
 
-> [!NOTE]
-> **Why:** Removing this source disables general web search. It does not restrict Work IQ to a particular SharePoint site; we'll specify the Caldova site in the agent instructions below.
+    > [!NOTE]
+    > **Why:** Removing this source disables general web search. It does not restrict Work IQ to a particular SharePoint site; we'll specify the Caldova site in the agent instructions below.
 
 1. Select the **Work IQ** pill under **Tools** to open the edit tool screen.
 

@@ -43,8 +43,8 @@ The first step in creating your agent is to establish its purpose and boundaries
 
     ![Remove ability to search all websites](./assets/01.5-remove-all-websites.png)
 
-> [!NOTE]
-> **Why:** By default, this setting enables your agent to reference all information on the web. Disabling will ensure the agent only pulls data from the knowledge sources we explicitly add.
+    > [!NOTE]
+    > **Why:** By default, this setting enables your agent to reference all information on the web. Disabling will ensure the agent only pulls data from the knowledge sources we explicitly add.
 
 1. Select the **Work IQ** pill under **Tools** to open the edit tool screen.
 
